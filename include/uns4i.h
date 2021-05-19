@@ -6,7 +6,6 @@ extern "C" {
 #endif
 #include <stdbool.h>
 #include <stdint.h>
-#include "mjs.h"
 
 struct uns4i_trc{
     float VDC1, VAC1, VAC1f420, VAC1f480, VAC1f580, VAC1f720, VAC1f780;
@@ -17,7 +16,6 @@ struct uns4i_trc{
     uint16_t F3cur, F3mod;
     float VDC4, VAC4, VAC4f420, VAC4f480, VAC4f580, VAC4f720, VAC4f780;
     uint16_t F4cur, F4mod;
-
 };
 
 const struct mjs_c_struct_member* get_uns4i_trc_descr(void);
