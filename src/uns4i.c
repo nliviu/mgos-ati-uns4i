@@ -50,7 +50,7 @@ const struct mjs_c_struct_member* get_uns4i_trc_descr(void){
     return uns4i_trc_descr;
 };
 uint8_t* get_request_string( uint8_t addr, uint8_t code_isol, uint8_t amplif ){
-    return "/x00/x6c/x03/x00/x01/x00/xa9/x23";
+    return (uint8_t*)"/x00/x6c/x03/x00/x01/x00/xa9/x23";
 }
 
 bool mgos_usn4i_init(void){
