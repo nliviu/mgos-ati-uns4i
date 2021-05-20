@@ -56,6 +56,6 @@ uint8_t* get_request_string( uint8_t addr, uint8_t code_isol, uint8_t amplif ){
     return (uint8_t*)"/x00/x6c/x03/x00/x01/x00/xa9/x23";
 }
 
-bool mgos_usn4i_init(void){
+bool mgos_mgos_ati_uns4i_init(void){
     return true;
 }
