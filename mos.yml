@@ -3,7 +3,7 @@ type: lib
 description: A USN4i data handle lib
 
 includes:
-  - src
+  - include
 
 sources:
   - src
